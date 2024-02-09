@@ -1,0 +1,279 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/*  */
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  padding: 10px;
+  font-size: 13px;
+  gap: 30px;
+}
+
+.nav-bar-title {
+  text-decoration: none;
+  color: #000000;
+}
+
+.apple-logo {
+  width: 20px;
+}
+
+.apple-logo-2 {
+  width: 25px;
+}
+
+/*  */
+
+.discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+/*  */
+
+.main {
+  background-color: #f5f5f7;
+  padding: 50px;
+}
+
+.main-title-1 {
+  display: flex;
+}
+
+.main-title-1-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 90px;
+}
+
+.main-title-1-help {
+  margin-left: 700px;
+  margin-top: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.specialist-logo {
+  flex-wrap: wrap;
+  width: 30px;
+}
+
+.apple-logo-2-2 {
+  width: 25px;
+}
+
+.main-title-1-help-2 {
+  font-weight: lighter;
+  padding-top: 20px;
+  text-decoration: none;
+  color: #0066d2;
+}
+
+.main-title-1-help-2:hover {
+  text-decoration: underline;
+}
+
+.main-title-1-help-3 {
+  font-weight: lighter;
+  padding-top: 20px;
+  text-decoration: none;
+  color: #0066d2;
+}
+
+.main-title-1-help-3:hover {
+  text-decoration: underline;
+}
+
+.main-nav-title {
+  text-decoration: none;
+  color: #000000;
+  margin: -60px;
+  font-size: 17px;
+  margin-left: 100px;
+}
+
+.main-nav-title:hover {
+  color: #808080;
+}
+
+.main-title-2 {
+  display: flex;
+  padding: 50px;
+}
+
+.main-title-2-1 {
+  font-size: 27.5px;
+  margin-left: 42.5px;
+  font-weight: bold;
+}
+
+.main-title-2-2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #808080;
+}
+
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*  */
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+.content-1 {
+  margin: 20px;
+  width: 390px;
+  border-radius: 10px;
+  height: 485px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 2px rgb(238, 238, 242);
+  transition: transform 0.5s ease;
+}
+
+.content-1:hover {
+  box-shadow: 3px 3px 3px 3px rgb(238, 238, 242);
+  transform: scale(1.01);
+}
+
+.content-nieuw {
+  font-size: 10px;
+  padding: 20px;
+  color: #d67000;
+  font-weight: bold;
+}
+
+.content-nieuw-2 {
+  font-size: 10px;
+  padding: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.content-titel {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 250px;
+}
+
+.content-titel-2 {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 375px;
+}
+
+.iphone {
+  margin-left: 45px;
+  margin-top: -15px;
+  width: 300px;
+}
+
+.iphone-2 {
+  width: 375px;
+  margin-top: 30px;
+  margin-left: 6.5px;
+}
+
+.iphone-3 {
+  margin-left: 45px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.iphone-price-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px;
+}
+
+.iphone-price {
+  font-size: 14px;
+}
+
+.iphone-price-buy {
+  background-color: #0071e3;
+  color: #ffffff;
+  border-radius: 20px;
+  width: 70px;
+  height: 35px;
+  border: none;
+  font-size: 17.5px;
+  margin-top: -10px;
+}
+
+.iphone-price-buy:hover {
+  background-color: #0d79e5;
+}
+
+/*  */
+
+.help-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -50px;
+  margin-left: 75px;
+}
+
+.content-2 {
+  margin: 20px;
+  width: 475px;
+  border-radius: 10px;
+  height: 485px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 2px rgb(238, 238, 242);
+  transition: transform 0.5s ease;
+}
+
+.content-2:hover {
+  box-shadow: 3px 3px 3px 3px rgb(238, 238, 242);
+  transform: scale(1.01);
+}
+
+.help-upper-text {
+  font-size: 10px;
+  padding: 20px;
+  color: #808080;
+  font-weight: bold;
+}
+
+.content-titel-specialist {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 450px;
+}
+
+.help-image-1 {
+  margin-left: 12.5px;
+  margin-top: 5px;
+  width: 450px;
+}
+
+.help-image-2 {
+  margin-left: 65px;
+  margin-top: -2px;
+  width: 350px;
+}
