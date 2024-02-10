@@ -121,6 +121,7 @@ body {
 }
 
 .main-title-2-2 {
+  margin-top: 2px;
   font-size: 25px;
   font-weight: bold;
   color: #808080;
@@ -276,4 +277,57 @@ body {
   margin-left: 65px;
   margin-top: -2px;
   width: 350px;
+}
+
+/*  */
+
+.save-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -50px;
+  margin-left: 75px;
+}
+
+.save-titel {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 330px;
+}
+
+.save-image-1 {
+  margin-top: 19px;
+  border-radius: 10px;
+  width: 475px;
+  border: none;
+  height: 250px;
+}
+
+.save-image-2 {
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-top: -15px;
+  width: 450px;
+}
+
+/*  */
+
+.description-title {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 350px;
+}
+
+.content-description {
+  padding: 20px;
+  font-size: 17.5px;
+  margin-top: -30px;
+  width: 325px;
+}
+
+.accessoires-image-1 {
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 375px;
 }
