@@ -33,13 +33,18 @@ body {
 
 /*  */
 
-.discount {
+.promo-banner {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   font-size: 15px;
   font-weight: lighter;
+}
+
+.promo-banner-a {
+  color: #000000;
+  text-decoration: none;
 }
 
 /*  */
@@ -227,6 +232,11 @@ body {
 
 .iphone-price-buy:hover {
   background-color: #0d79e5;
+}
+
+.accessoires-a {
+  text-decoration: none;
+  color: black;
 }
 
 /*  */
