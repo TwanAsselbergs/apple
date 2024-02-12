@@ -149,10 +149,11 @@ body {
 }
 
 .content-1 {
-  margin: 20px;
   width: 390px;
-  border-radius: 10px;
   height: 485px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 18px;
   background-color: #ffffff;
   box-shadow: 2px 2px 2px 2px rgb(238, 238, 242);
   transition: transform 0.5s ease;
@@ -223,14 +224,15 @@ body {
 }
 
 .iphone-price-buy {
-  background-color: #0071e3;
-  color: #ffffff;
-  border-radius: 20px;
   width: 70px;
   height: 35px;
+  color: #ffffff;
+  background-color: #0071e3;
+  border-radius: 20px;
   border: none;
   font-size: 17.5px;
   margin-top: -10px;
+  cursor: pointer;
 }
 
 .iphone-price-buy:hover {
@@ -252,10 +254,11 @@ body {
 }
 
 .content-2 {
-  margin: 20px;
   width: 475px;
-  border-radius: 10px;
   height: 485px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 18px;
   background-color: #ffffff;
   box-shadow: 2px 2px 2px 2px rgb(238, 238, 242);
   transition: transform 0.5s ease;
@@ -310,7 +313,7 @@ body {
 
 .save-image-1 {
   margin-top: 19px;
-  border-radius: 10px;
+  border-radius: 18px;
   width: 475px;
   border: none;
   height: 250px;
@@ -318,7 +321,7 @@ body {
 
 .save-image-2 {
   margin-left: 10px;
-  border-radius: 10px;
+  border-radius: 18px;
   margin-top: -15px;
   width: 450px;
 }
@@ -326,10 +329,11 @@ body {
 /*  */
 
 .content-3 {
-  margin: 20px;
   width: 325px;
-  border-radius: 10px;
   height: 485px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 18px;
   background-color: #ffffff;
   box-shadow: 2px 2px 2px 2px rgb(238, 238, 242);
   transition: transform 0.5s ease;
@@ -355,20 +359,20 @@ body {
 }
 
 .accessoires-image-1 {
-  border-radius: 10px;
+  border-radius: 18px;
   margin-left: 10px;
   width: 375px;
 }
 
 .accessoires-image-2 {
-  border-radius: 10px;
+  border-radius: 18px;
   margin-top: 75px;
   margin-left: 5px;
   width: 375px;
 }
 
 .accessoires-image-3 {
-  border-radius: 10px;
+  border-radius: 18px;
   margin-top: 45px;
   margin-left: 45px;
   margin-right: 45px;
@@ -415,10 +419,11 @@ body {
 /*  */
 
 .content-4 {
-  margin: 20px;
   width: 550px;
-  border-radius: 10px;
   height: 485px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 18px;
   background-color: #ffffff;
   box-shadow: 2px 2px 2px 2px rgb(238, 238, 242);
   transition: transform 0.5s ease;
@@ -444,7 +449,7 @@ body {
 }
 
 .configuration-image-1 {
-  border-radius: 10px;
+  border-radius: 18px;
   margin-right: 25px;
   margin-left: 25px;
   margin-top: 37px;
@@ -452,14 +457,14 @@ body {
 }
 
 .configuration-image-2 {
-  border-radius: 10px;
+  border-radius: 18px;
   margin-left: 115px;
   margin-right: 115px;
   width: 235px;
 }
 
 .configuration-image-3 {
-  border-radius: 10px;
+  border-radius: 18px;
   margin-left: 135px;
   margin-right: 115px;
   width: 210px;
@@ -473,7 +478,7 @@ body {
 }
 
 .configuration-image-5 {
-  border-radius: 10px;
+  border-radius: 18px;
   width: 400px;
   margin-top: 50px;
 }
@@ -503,11 +508,11 @@ body {
 
 .compatible-image-2 {
   width: 425px;
-  border-radius: 10px;
+  border-radius: 18px;
 }
 
 .compatible-image-3 {
-  border-radius: 10px;
+  border-radius: 18px;
   margin-right: 25px;
   margin-left: 25px;
   margin-top: 10px;
@@ -515,7 +520,7 @@ body {
 }
 
 .compatible-image-4 {
-  border-radius: 10px;
+  border-radius: 18px;
   margin-top: 15px;
   margin-left: 95px;
   margin-right: 95px;
