@@ -464,3 +464,60 @@ body {
   margin-right: 115px;
   width: 210px;
 }
+
+.configuration-image-4 {
+  border-radius: 20px;
+  width: 250px;
+  margin-left: 115px;
+  margin-top: 10px;
+}
+
+.configuration-image-5 {
+  border-radius: 10px;
+  width: 400px;
+  margin-top: 50px;
+}
+
+/*  */
+
+.compatible-title-1 {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 275px;
+}
+
+.compatible-title-2 {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 350px;
+}
+
+.compatible-image-1 {
+  border-radius: 20px;
+  width: 275px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.compatible-image-2 {
+  width: 425px;
+  border-radius: 10px;
+}
+
+.compatible-image-3 {
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 425px;
+}
+
+.compatible-image-4 {
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 95px;
+  margin-right: 95px;
+  width: 235px;
+}
