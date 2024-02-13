@@ -599,7 +599,6 @@ body {
   font-size: 12px;
   width: 950px;
   color: #808080;
-  margin-top: 50px;
 }
 
 .footer-description-2 {
@@ -666,6 +665,7 @@ body {
   margin-bottom: 2.5px;
   color: #424245;
   text-decoration: none;
+  width: 99.9%;
 }
 
 .footer-nav-2 a:hover {
