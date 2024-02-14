@@ -213,6 +213,14 @@ body {
   width: 375px;
 }
 
+.content-titel-watch {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 325px;
+}
+
+
 /* dit is de class voor iphone image 1 */
 .iphone {
   margin-left: 45px;
@@ -261,6 +269,13 @@ body {
 /* als je over de prijs button hovert wordt het iets lichter blauw */
 .iphone-price-buy:hover {
   background-color: #0d79e5;
+}
+
+.ipad {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 15px;
+  width: 300px;
 }
 
 .accessoires-a {
