@@ -815,6 +815,7 @@ body {
 /*  */
 
 @media only screen and (max-width: 500px) {
+  /* media query die onder 500 width (telefoon) de website responsive maakt */
 
   .nav-bar {
     display: none;
