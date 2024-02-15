@@ -22,3 +22,13 @@ links.forEach(function (link) {
     this.classList.add("active-link");
   };
 });
+
+// get id burger-menu van html en voeg een click function toe
+document.getElementById('burger-menu').addEventListener('click', function () {
+  var nav = document.getElementById('test-container'); // get id test-container
+  if (nav.style.display === 'none') {
+    nav.style.display = 'flex';
+  } else {
+    nav.style.display = 'none';
+  }
+});
