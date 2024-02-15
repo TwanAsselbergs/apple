@@ -813,8 +813,8 @@ body {
 
 /*  */
 
-@media only screen and (max-width: 480px) {
-  /* media query die onder 480 width (telefoon) de website responsive maakt */
+@media only screen and (max-width: 600px) {
+  /* media query die onder 600 width (telefoon) de website responsive maakt */
 
   .nav-bar {
     display: none;
