@@ -183,6 +183,19 @@ body {
   font-weight: bold;
 }
 
+.main-title-2-1-hidden {
+  font-size: 27.5px;
+  margin-left: 42.5px;
+  font-weight: bold;
+}
+
+.main-title-2-1-responsive {
+  display: none;
+  font-size: 20px;
+  margin-left: 42.5px;
+  font-weight: bold;
+}
+
 .main-title-2-1-2 {
   font-size: 27.5px;
   margin-left: 42.5px;
@@ -251,7 +264,29 @@ body {
   width: 250px;
 }
 
+.content-titel-hidden {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 250px;
+}
+
+.content-titel-responsive {
+  display: none;
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 250px;
+}
+
 .content-titel-2 {
+  padding: 20px;
+  font-size: 27.5px;
+  font-weight: bold;
+  width: 375px;
+}
+
+.content-titel-2-watch {
   padding: 20px;
   font-size: 27.5px;
   font-weight: bold;
@@ -841,6 +876,75 @@ body {
   .main-title-2-1 {
     font-size: 20px;
     padding: 0px;
+    margin-left: 7.5px;
+  }
+
+  .main-title-2-1-hidden {
+    display: none;
+  }
+
+  .main-title-2-1-responsive {
+    display: flex;
+  }
+
+  .content-1 {
+    margin: 5px;
+    width: 250px;
+  }
+
+  .content-titel-hidden {
+    display: none;
+  }
+
+  .content-titel-responsive {
+    display: flex;
+  }
+
+  .iphone {
+    width: 225px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+
+  .content-titel-2 {
+    width: 300px;
+  }
+
+  .content-titel-2-watch {
+    width: 200px;
+  }
+
+  .iphone-2 {
+    width: 235px;
+    margin-top: 110px;
+    border-radius: 18px;
+    margin-left: 6.5px;
+    margin-right: 6.5px;
+  }
+
+  .iphone-3 {
+    width: 225px;
+    margin-top: 45px;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+
+  .ipad {
+    width: 240px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 25px;
+  }
+
+  .iphone-price {
+    margin-top: 0px;
+    margin-right: 5px;
+  }
+
+  .content-titel {
+    padding-right: 5px;
+    width: 200px;
   }
 
   .help-container {
@@ -853,13 +957,31 @@ body {
     display: none;
   }
 
+  .description-title {
+    width: 250px;
+  }
+
+  .content-description {
+    width: 225px;
+  }
+
+  .accessoires-image-1 {
+    width: 240px;
+    margin-top: 22px;
+  }
+
+  .accessoires-image-2 {
+    width: 240px;
+  }
+
   .main-title-2-2 {
     font-size: 27px;
   }
 
-  .main .main-title-1-title {
+  .main-title-1-title {
     min-width: 275px;
     font-size: 35px;
+    margin: 75px;
   }
 
   .main-title-1-help {
