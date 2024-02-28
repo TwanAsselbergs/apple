@@ -63,13 +63,18 @@
             </div>
             <form>
                 <div class="form-container">
-                    <input type="text" name="aanhef" id="aanhef" list="titel" placeholder="Aanhef" required>
-                    <datalist id="titel">
-                        <option value="Dhr.">
-                        <option value="Mevr.">
-                        <option value="Mej.">
-                        <option value="Niet opgegeven">
-                    </datalist>
+                    <select name="aanhef" id="aanhef" required>
+                        <option value="" disabled selected>Aanhef</option>
+                        <option value="Dhr.">Dhr.</option>
+                        <option value="Mevr.">Mevr.</option>
+                        <option value="Mej.">Mej.</option>
+                        <option value="Niet opgegeven">Niet opgegeven</option>
+                    </select>
+                    <script>
+                        document.getElementById('aanhef').addEventListener('change', function () {
+                            this.style.color = this.value ? 'black' : 'gray';
+                        });
+                    </script>
                     <div class="input-field">
                         <input type="text" name="voor" id="voornaam" placeholder=" " maxlength="14" required>
                         <label for="voornaam">Voornaam</label>
