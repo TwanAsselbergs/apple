@@ -172,6 +172,19 @@ body {
   padding: 50px;
 }
 
+.main-title-2 p {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 625px;
+}
+
+.price-slider {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-top: -1.5px;
+}
+
 .main-title-2-none {
   display: flex;
   padding: 50px;
@@ -993,6 +1006,14 @@ body {
   }
 
   .main-title-2-2 {
+    display: none;
+  }
+
+  .main-title-2 p {
+    display: none;
+  }
+
+  .price-slider {
     display: none;
   }
 

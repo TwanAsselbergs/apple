@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bestel.css"> <!-- linkt dit html bestand met bestel.css -->
+    <title>Apple (Nederland)</title> <!-- titel van de website -->
+    <link rel="icon" href="images/apple-2.ico"> <!-- dit geeft de titel een logo aan de linkerkant -->
+</head>
+
+<body>
+    <nav class="nav-bar"> <!-- nav bar top met logo en links -->
+        <a href="index.html">
+            <img class="apple-logo" src="images/apple.png" alt="Apple Logo">
+        </a>
+        <a class="nav-bar-title" href="index.html">Store</a>
+        <!-- <a> voor de store link, href naar index.html (nep link) -->
+        <a class="nav-bar-title" href="index.html">Mac</a>
+        <a class="nav-bar-title" href="index.html">iPad</a>
+        <a class="nav-bar-title" href="index.html">iPhone</a>
+        <a class="nav-bar-title" href="index.html">Watch</a>
+        <a class="nav-bar-title" href="index.html">AirPods</a>
+        <a class="nav-bar-title" href="index.html">TV & Woning</a>
+        <a class="nav-bar-title" href="index.html">Entertainment</a>
+        <a class="nav-bar-title" href="index.html">Accessoires</a>
+        <a class="nav-bar-title" href="index.html">Support</a>
+        <img class="apple-logo-2" src="images/search.jpg" alt="Search">
+        <img class="apple-logo-2" src="images/bag.jpg" alt="Bag">
+    </nav>
+    <nav class="nav-bar-phone" id="nav-bar-phone"> <!-- nav bar voor responsive phone top met logo en plaatjes -->
+        <a href="index.html">
+            <img class="apple-logo" src="images/apple.png" alt="Apple Logo">
+        </a>
+        <img class="apple-logo-3" src="images/search.jpg" alt="Search">
+        <img class="apple-logo-4" src="images/bag.jpg" alt="Bag">
+        <img class="apple-logo-5" id="burger-menu" src="images/burger-menu.png" alt="Burger Menu">
+    </nav>
+    <div id="test-container"> <!-- burger menu hidden -->
+        <div class="test-container-2">
+            <p class="test">Store</p>
+            <p class="test">Mac</p>
+            <p class="test">iPad</p>
+            <p class="test">iPhone</p>
+            <p class="test">Watch</p>
+            <p class="test">AirPods</p>
+            <p class="test">TV & Woning</p>
+            <p class="test">Entertainment</p>
+            <p class="test">Accessoires</p>
+            <p class="test">Support</p>
+        </div>
+    </div>
+    <main class="main">
+        <div class="main-container">
+            <div class="main-title">
+                <h1>Kassa</h1>
+                <a href="">Toon besteloverzicht: €1.229,00</a>
+            </div>
+            <hr class="footer-line">
+            <div class="form-title">
+                <h2>Waar moeten we je bestelling naartoe sturen?</h2>
+                <h3>Voer je naam en adres in:</h3>
+            </div>
+            <form>
+                <div class="form-container">
+                    <input type="text" name="aanhef" id="aanhef" list="titel" placeholder="Aanhef" required>
+                    <datalist id="titel">
+                        <option value="Dhr.">
+                        <option value="Mevr.">
+                        <option value="Mej.">
+                        <option value="Niet opgegeven">
+                    </datalist>
+                    <div class="input-field">
+                        <input type="text" name="voor" id="voornaam" placeholder=" " maxlength="14" required>
+                        <label for="voornaam">Voornaam</label>
+                    </div>
+                    <div class="form-container-2">
+                        <div class="input-field">
+                            <input type="text" name="achter" id="achternaam" placeholder=" " maxlength="20" required>
+                            <label for="achternaam">Achternaam</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="tussen" id="tussenvoegsel" placeholder=" " maxlength="15">
+                            <label for="tussenvoegsel">Tussenvoegsel (optioneel)</label>
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <input type="date" name="geboorte" id="geboortedatum" required>
+                        <label for="geboortedatum">Geboortedatum</label>
+                    </div>
+                    <div class="form-container-2">
+                        <div class="input-field">
+                            <input type="text" name="straat" id="straatnaam" placeholder=" " maxlength="20" required>
+                            <label for="straatnaam">Straatnaam</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="number" name="huis" id="huisnummer" placeholder=" " required>
+                            <label for="huisnummer">Huisnummer</label>
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="aanduid" id="aanduiding" placeholder=" " maxlength="35">
+                        <label for="aanduiding">Nadere aanduiding, toegangscode gebouw (optioneel)</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="over" id="overige" placeholder=" " maxlength="35">
+                        <label for="overige">Overige adresgegevens (optioneel)</label>
+                    </div>
+                    <div class="form-container-2">
+                        <div class="input-field">
+                            <input type="text" name="post" id="postcode" placeholder=" " maxlength="6" required>
+                            <label for="postcode">Postcode</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" name="woon" id="woonplaats" placeholder=" " maxlength="30" required>
+                            <label for="woonplaats">Woonplaats</label>
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="regio" id="land" placeholder=" " maxlength="30" required>
+                        <label for="land">Land / Regio</label>
+                    </div>
+                    <div class="form-title-2">
+                        <h3>Wat zijn je contactgegevens?</h3>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" name="mail" id="email" placeholder=" " maxlength="30" required>
+                        <label for="email">E-mailadres</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="number" name="telefoon" id="telefoonnummer" placeholder=" " required>
+                        <label for="telefoonnummer">Mobiel telefoonnummer</label>
+                    </div>
+                    <div class="input-field-checkbox">
+                        <input type="checkbox" name="voorwaard" id="voorwaarden" required>
+                        <p>Akkoord met de algemene voorwaarden</p>
+                    </div>
+                </div>
+                <hr class="form-line">
+                <div class="updates">Deel updates over de zending met iemand anders:</div>
+                <a href="bestelformulier.html">Voer een e-mailadres in</a>
+                <hr class="form-line">
+                <button type="submit" class="form-button">Ga door naar betaling</button>
+            </form>
+            <hr class="form-line-2">
+            <p>Meer hulp nodig? Chat nu of bel 0800 0200 570.</p>
+            <hr class="form-line-3">
+            <div class="form-title-2">
+                <h4>Veelgestelde vragen over de verzending</h4>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-container"> <!-- footer, met de class van footer-container voor css -->
+        <div class="footer-extra-container">
+            <div class="footer-extra-form">Apple gebruikt de industrie-standaard encryptie ter bescherming van de
+                vertrouwelijkheid van uw persoonlijke gegevens.</div>
+        </div>
+        <hr class="footer-line">
+        <div class="footer-extra-container">
+            <div class="footer-extra">Andere manieren om te shoppen:</div>
+            <a href="index.html">&nbsp;Zoek een Apple Store&nbsp;</a>
+            of
+            <a href="index.html">&nbsp;andere winkel&nbsp;</a>
+            bij jou in de buurt. Of bel 0800 0200 570.
+        </div>
+        <div class="footer-extra-container-2">
+            <div class="footer-extra-2">
+                Copyright © 2024 Apple Inc. Alle rechten voorbehouden. <!-- copyright tag -->
+            </div>
+            <a href="index.html">Nederland</a>
+        </div>
+        <div class="footer-extra-container-3">
+            <a href="index.html">Privacybeleid</a>
+            |
+            <a href="index.html">Gebruik van cookies</a>
+            |
+            <a href="index.html">Gebruiksvoorwaarden</a>
+            |
+            <a href="index.html">Verkoopvoorwaarden</a>
+            |
+            <a href="index.html">Juridische informatie</a>
+            |
+            <a href="index.html">Site-overzicht</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html> <!-- einde html tag -->

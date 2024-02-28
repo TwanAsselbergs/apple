@@ -1,0 +1,685 @@
+/* geeft alle html en de volledige body font-family arial, scroll behavior op smooth en margin en padding op 0 zodat er geen white space is */
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+/* deze class geeft de sections onzichtbaarheid */
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+/*  */
+
+/* dit is de class en css voor de navigatie bar, met een gap van 30px tussen de woorden */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 13px;
+    gap: 30px;
+}
+
+.nav-bar-phone {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 2.5px;
+}
+
+#test-container {
+    display: none;
+    height: 1000vh;
+}
+
+.test-container-2 {
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-bar-title {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* apple logo links van de navigatie bar */
+.apple-logo {
+    width: 20px;
+}
+
+.apple-logo-2 {
+    width: 25px;
+}
+
+.apple-logo-3 {
+    width: 25px;
+    margin-left: 250px;
+}
+
+.apple-logo-4 {
+    width: 25px;
+}
+
+.apple-logo-5 {
+    width: 25px;
+}
+
+/*  */
+
+/* dit is de main container */
+.main {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -35px;
+}
+
+.main-title h1 {
+    font-size: 23px;
+}
+
+.form-title h2 {
+    padding: 5px;
+    margin-top: 50px;
+    font-size: 38px;
+}
+
+.form-title h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.form-title-2 h3 {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.form-title-2 h4 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.form-button {
+    background-color: #0071e3;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 17px;
+    padding-left: 160px;
+    padding-right: 160px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #0d79e5;
+}
+
+/*  */
+
+/* form container met flex-direction column, dit zet de inhoud onder elkaar */
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* tweede form container met display flex zodat de inhoud naast elkaar staat, in plaats van onder elkaar */
+.form-container-2 {
+    display: flex;
+}
+
+/* ID gekoppeld aan aanhef, met width en height en andere styling */
+#aanhef {
+    width: 210px;
+    height: 55px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+#voornaam {
+    margin-top: 15px;
+    width: 475px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#achternaam {
+    margin-top: 15px;
+    width: 231.5px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+#tussenvoegsel {
+    margin-top: 15px;
+    width: 210px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#straatnaam {
+    margin-top: 15px;
+    width: 321.5px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+#huisnummer {
+    margin-top: 15px;
+    width: 120px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#geboortedatum {
+    margin-top: 15px;
+    width: 477.5px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+    cursor: text;
+}
+
+#overige {
+    margin-top: 15px;
+    width: 475px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#aanduiding {
+    margin-top: 15px;
+    width: 475px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#postcode {
+    margin-top: 15px;
+    width: 231.5px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+#woonplaats {
+    margin-top: 15px;
+    width: 210px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#land {
+    margin-top: 15px;
+    width: 475px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#email {
+    margin-top: 15px;
+    width: 475px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#telefoonnummer {
+    width: 475px;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border-width: 1px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+#voorwaarden {
+    margin-left: 7.5px;
+    cursor: pointer;
+}
+
+.input-field {
+    position: relative;
+    color: gray;
+}
+
+.input-field-checkbox {
+    display: flex;
+}
+
+.input-field label {
+    position: absolute;
+    left: 20px;
+    top: 35px;
+    transition: 0.2s;
+    cursor: text;
+}
+
+.input-field input {
+    padding-top: 10px;
+}
+
+.input-field input:focus+label,
+.input-field input:not(:placeholder-shown)+label {
+    top: 23px;
+    left: 15px;
+    transition: 0.2s;
+    font-size: 12px;
+}
+
+/*  */
+
+/* dit is de footer-containers, met display flex, en flex direction column die zorgt dat het een column display krijgt */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f7;
+}
+
+.footer-p {
+    font-size: 10px;
+}
+
+.footer-line {
+    width: 950px;
+    margin-top: 25px;
+}
+
+.form-line {
+    width: 950px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form-line-2 {
+    width: 950px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.form-line-3 {
+    width: 950px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    margin-right: 750px;
+    padding: 20px;
+    color: #424245;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #424245;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    width: 15px;
+    height: 15px;
+    margin-top: -2px;
+}
+
+.footer-nav-2 {
+    display: flex;
+}
+
+.footer-nav-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 75px;
+}
+
+.footer-nav-2-title {
+    font-weight: bold;
+    opacity: 0.75;
+}
+
+.footer-nav-2-title-2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    opacity: 0.75;
+}
+
+.footer-nav-2 a {
+    margin-top: 10px;
+    margin-bottom: 2.5px;
+    color: #424245;
+    text-decoration: none;
+    width: 99.9%;
+}
+
+.footer-nav-2 a:hover {
+    text-decoration: underline;
+}
+
+.footer-extra-container {
+    display: flex;
+    font-size: 12px;
+    color: #808080;
+    margin-right: 335px;
+    margin-top: 25px;
+}
+
+.footer-extra-form {
+    margin-left: 50px;
+}
+
+.footer-extra-container a {
+    color: #0066cc;
+}
+
+.footer-extra-container-2 {
+    display: flex;
+}
+
+.footer-extra-2 {
+    margin-right: 575px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.footer-extra-container-2 a {
+    font-size: 12px;
+    color: #808080;
+    text-decoration: none;
+}
+
+.footer-extra-container-3 {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 264px;
+}
+
+.footer-extra-container-3 a {
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #424245;
+    margin-bottom: 35px;
+}
+
+.footer-extra-container-3 a:hover {
+    text-decoration: underline;
+}
+
+/*  */
+
+@media only screen and (max-width: 600px) {
+    /* media query die onder 600 width (telefoon) de website responsive maakt */
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-bar-phone {
+        display: flex;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .content-container {
+        margin-left: 35px;
+        padding-right: 0px;
+    }
+
+    .main-title-2-1 {
+        font-size: 20px;
+        padding: 0px;
+        margin-left: 7.5px;
+    }
+
+    .main-title-2-1-hidden {
+        display: none;
+    }
+
+    .main-title-2-1-responsive {
+        display: flex;
+    }
+
+    .content-1 {
+        margin: 5px;
+        width: 250px;
+    }
+
+    .content-titel-hidden {
+        display: none;
+    }
+
+    .content-titel-responsive {
+        display: flex;
+    }
+
+    .iphone {
+        width: 225px;
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    .content-titel-2 {
+        width: 300px;
+    }
+
+    .content-titel-2-watch {
+        width: 200px;
+    }
+
+    .iphone-2 {
+        width: 225px;
+        margin-top: 110px;
+        border-radius: 18px;
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+    }
+
+    .iphone-3 {
+        width: 225px;
+        margin-top: 45px;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    .ipad {
+        width: 240px;
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-top: 25px;
+    }
+
+    .iphone-price {
+        margin-top: 0px;
+        margin-right: 5px;
+    }
+
+    .content-titel {
+        padding-right: 5px;
+        width: 200px;
+    }
+
+    .help-container {
+        margin-left: 0px;
+        display: none;
+    }
+
+    .save-container {
+        margin-left: 0px;
+        display: none;
+    }
+
+    .description-title {
+        width: 250px;
+    }
+
+    .content-description {
+        width: 225px;
+    }
+
+    .accessoires-image-1 {
+        width: 240px;
+        margin-top: 22px;
+    }
+
+    .accessoires-image-2 {
+        width: 240px;
+    }
+
+    .main-title-2-2 {
+        font-size: 27px;
+    }
+
+    .main-title-1-title {
+        min-width: 275px;
+        font-size: 35px;
+        margin: 75px;
+    }
+
+    .main-title-1-help {
+        display: none;
+    }
+
+    .main-title-2-none {
+        display: none;
+    }
+
+    .main-title-2-2 {
+        display: none;
+    }
+
+    .footer-description-1 {
+        width: 300px;
+    }
+
+    .footer-description-2 {
+        width: 300px;
+    }
+
+    .footer-nav-container {
+        width: 5px;
+        margin-right: 30px;
+    }
+
+    .footer-extra-2 {
+        display: none;
+    }
+
+    .footer-nav-2 {
+        display: none;
+    }
+
+    .footer-line {
+        width: 300px;
+    }
+
+    .footer-extra-container {
+        width: 300px;
+        margin-left: 350px;
+    }
+
+    .footer-extra-container-3 {
+        display: none;
+    }
+}
