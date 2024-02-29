@@ -1063,4 +1063,9 @@ body {
   .footer-extra-container-3 {
     display: none;
   }
+
+  .nederland {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
 }

@@ -601,6 +601,11 @@ a:hover {
         display: none;
     }
 
+    .nederland {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
     .form-container {
         margin: 25px;
         width: 300px;
