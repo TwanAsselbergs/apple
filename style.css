@@ -921,7 +921,7 @@ body {
   }
 
   .content-titel-2 {
-    width: 300px;
+    width: 200px;
   }
 
   .content-titel-2-watch {
@@ -971,7 +971,7 @@ body {
   }
 
   .description-title {
-    width: 250px;
+    width: 200px;
   }
 
   .content-description {
@@ -1011,6 +1011,19 @@ body {
 
   .main-title-2 p {
     display: none;
+  }
+
+  .content-5 {
+    width: 260px;
+  }
+
+  .description-title-black {
+    width: 230px;
+  }
+
+  .stores-image-1 {
+    width: 150px;
+    margin-top: 75px;
   }
 
   .price-slider {

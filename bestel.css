@@ -152,6 +152,10 @@ body {
     display: flex;
 }
 
+.form-container-3 {
+    display: flex;
+}
+
 /* ID gekoppeld aan aanhef, met width en height en andere styling */
 #aanhef {
     width: 210px;
@@ -541,91 +545,8 @@ a:hover {
         display: flex;
     }
 
-    .content-1 {
-        margin: 5px;
-        width: 250px;
-    }
-
-    .content-titel-hidden {
-        display: none;
-    }
-
-    .content-titel-responsive {
-        display: flex;
-    }
-
-    .iphone {
-        width: 225px;
-        margin-top: 10px;
-        margin-left: 15px;
-        margin-right: 5px;
-    }
-
-    .content-titel-2 {
-        width: 300px;
-    }
-
-    .content-titel-2-watch {
-        width: 200px;
-    }
-
-    .iphone-2 {
-        width: 225px;
-        margin-top: 110px;
-        border-radius: 18px;
-        margin-left: 6.5px;
-        margin-right: 6.5px;
-    }
-
-    .iphone-3 {
-        width: 225px;
-        margin-top: 45px;
-        margin-left: 15px;
-        margin-right: 5px;
-    }
-
-    .ipad {
-        width: 240px;
-        margin-left: 0px;
-        margin-right: 5px;
-        margin-top: 25px;
-    }
-
-    .iphone-price {
-        margin-top: 0px;
-        margin-right: 5px;
-    }
-
-    .content-titel {
-        padding-right: 5px;
-        width: 200px;
-    }
-
-    .help-container {
-        margin-left: 0px;
-        display: none;
-    }
-
-    .save-container {
-        margin-left: 0px;
-        display: none;
-    }
-
     .description-title {
         width: 250px;
-    }
-
-    .content-description {
-        width: 225px;
-    }
-
-    .accessoires-image-1 {
-        width: 240px;
-        margin-top: 22px;
-    }
-
-    .accessoires-image-2 {
-        width: 240px;
     }
 
     .main-title-2-2 {
@@ -671,10 +592,6 @@ a:hover {
         display: none;
     }
 
-    .footer-line {
-        width: 300px;
-    }
-
     .footer-extra-container {
         width: 300px;
         margin-left: 350px;
@@ -682,5 +599,104 @@ a:hover {
 
     .footer-extra-container-3 {
         display: none;
+    }
+
+    .form-container {
+        margin: 25px;
+        width: 300px;
+    }
+
+    .form-container-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-line,
+    .form-line,
+    .form-line-2,
+    .form-line-3 {
+        width: 300px;
+    }
+
+    .main-title a {
+        /* display: none; */
+    }
+
+    .main-title {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .form-title {
+        margin-left: 12.5px;
+    }
+
+    .form-title h2 {
+        font-size: 25px;
+    }
+
+    .form-title h3 {
+        margin-left: 5px;
+    }
+
+    .form-title-2 h4 {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .updates {
+        margin-left: 10px;
+    }
+
+    .voer-email {
+        margin-left: 10px;
+    }
+
+    .form-button {
+        margin-top: -10px;
+        margin-bottom: -30px;
+        padding: 25px;
+        margin-left: 80px;
+    }
+
+    .form-line-2 p {
+        font-size: 10px;
+    }
+
+    .chat-bel {
+        margin-left: 17.5px;
+    }
+
+    .input-field-checkbox p {
+        margin-left: 15px;
+    }
+
+    #voornaam,
+    #achternaam,
+    #geboortedatum,
+    #postcode,
+    #woonplaats,
+    #land,
+    #email,
+    #telefoonnummer {
+        width: 300px;
+    }
+
+    #tussenvoegsel {
+        width: 200px;
+    }
+
+    #straatnaam {
+        width: 165px;
+    }
+
+    #huisnummer {
+        width: 100px;
+    }
+
+    #aanduiding,
+    #overige {
+        height: 70px;
+        width: 300px;
     }
 }
