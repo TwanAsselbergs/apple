@@ -13,9 +13,6 @@
 This Apple clone was my first individual assignment. The task was to create a custom-built dynamic webshop using PHP. You can order items and accessories, view your shopping cart, and place an order.
 
 1. Front-end (`/index.html`)
-
-   - A user-friendly application designed for customers to browse products and place orders.
-   - Provides a seamless ordering experience on a touchscreen or kiosk.
    
 
 ## Author(s)
