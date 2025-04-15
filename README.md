@@ -3,13 +3,9 @@
 ## Table of Contents
 
 - [Self-Service System Happy Herbivore](#self-service-system-happy-herbivore)
-  - [Table of contents](#table-of-contents)
+  - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-  - [Installation Guide](#installation-guide)
-    - [Prerequisites](#prerequisites)
-    - [Installation Steps](#installation-steps)
-  - [Building for production](#building-for-production)
-  - [Authors](#authors)
+  - [Author(s)](#authors)
   - [License](#license)
 
 ## Overview
