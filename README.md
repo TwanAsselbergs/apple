@@ -15,10 +15,8 @@ This Apple clone was my first individual assignment. The task was to create a cu
 
 1. Front-end (`/index.html`)
 
-
-## Project
-
-[https://u230654.gluwebsite.nl/apple/](https://u230654.gluwebsite.nl/apple/)
+   - The homepage of the Apple iPhone webshop.
+   - Uses JavaScript for certain features and animations and PHP for the back-end.
 
 
 ## Author(s)
