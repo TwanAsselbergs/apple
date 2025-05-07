@@ -10,7 +10,7 @@
 
 ## Overview
 
-This Apple clone was my first individual assignment. The task was to create a custom-built dynamic webshop using PHP. You can order items and accessories, view your shopping cart, and place an order.
+This Apple clone was my first individual assignment for school. The task was to create a custom-built dynamic webshop using PHP. You can order items and accessories, view your shopping cart, and place an order.
 
 1. Front-end (`/index.html`)
 
