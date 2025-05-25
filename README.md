@@ -25,6 +25,5 @@ This Apple clone was my first individual assignment for school. The task was to 
 
 ## License
 
-This project is licensed under the [MIT](LICENSE.md)
-License - see the [LICENSE.md](LICENSE.md) file for
-details
+This project is licensed under the [MIT](LICENSE)
+License - see the [LICENSE.md](LICENSE) file for details.
